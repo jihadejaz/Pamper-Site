@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards {
+    justify-content: space-between;
+}
+
+/* .cards:hover{
+    background-color: rgb(204, 208, 252);
+} */
+
+.cards button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.cards button:hover {
+    opacity: 0.9;
+}
+
+.cards p {
+    color: grey;
+    font-size: 20px;
+}
+
+
+.checked {
+    color: orange;
+}
+
+.section3 {
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.input1 {
+    padding: 4px;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: 2px #162719 solid;
+    border-left: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    color: #162719;
+}
+
+
+.containerFooter {
+    height: 50vh;
+    width: 100%;
+    background-color: #000;
+    color: whitesmoke;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.9;
+    color: white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
